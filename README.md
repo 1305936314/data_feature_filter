@@ -53,3 +53,4 @@ python statistic_advanced.py -config advanced
 1. primary和advanced配置文件不可混用，导入init时由于名称相同，要紧挨着导入dict的语句前
 2. 对大图进行特征提取时容易炸显存（0.5M以下为宜），要在pretrained_model中手动将self.device改为cpu
 3. 暂时没有advanced方法的图片筛选，需要通过二维的特征分布图，寻找离群点
+4. 用神经网络提取图像特征时需要下载预训练模型，[ResNet50](https://download.pytorch.org/models/resnet50-19c8e357.pth)
