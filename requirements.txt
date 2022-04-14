@@ -1,0 +1,12 @@
+# primary
+numpy
+matplotlib
+opencv
+tqdm
+
+
+# advanced(optional)
+torch
+torchvision
+umap-learn
+scikit-learn
